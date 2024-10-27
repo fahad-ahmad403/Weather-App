@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply transition-colors duration-300;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.light {
+    --bgc: 255, 255, 255;
+    --tc: 0, 0, 0;
+    --ic: 255, 255, 255;
+    --gradient-start: 255, 165, 0, 0.4;
+    --gradient-end: 37, 99, 235;
+    --gradient-deg: 120deg;
+}
+
+.dark {
+    --bgc: 0, 0, 0;
+    --tc: 255, 255, 255;
+    --ic: 36, 36, 36;
+    --gradient-start: 60, 60, 60, 0.8;
+    --gradient-end: 30, 30, 30;
+    --gradient-deg: 120deg;
+}
