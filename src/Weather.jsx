@@ -49,7 +49,7 @@ function App() {
       <div className="w-full min-h-screen bg-gradient-custom">
         <button
           onClick={btnHandle}
-          className="font-bold rounded text-xs w-32 h-10 absolute top-3 right-3 bg-background-Color text-text-Color"
+          className="font-bold rounded text-xs w-32 h-10 sm:w-28 absolute top-3 right-3 bg-background-Color text-text-Color"
         >
           {btn === true ? (
             <>Light Mode {lightIcon}</>
@@ -58,7 +58,7 @@ function App() {
           )}
         </button>
         <div className="flex flex-col justify-center items-center text-center">
-          <h1 className="lg:text-6xl md:text-4xl sm:text-4xl pt-12 mx-8 text-text-Color">
+          <h1 className="lg:text-6xl md:text-4xl sm:text-4xl sm:pt-24 pt-12 mx-8 text-text-Color">
             Weather App
           </h1>
           <input
